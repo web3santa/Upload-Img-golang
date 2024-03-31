@@ -6,6 +6,12 @@
     <title>Upload Image</title>
 </head>
 <body>
-    
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" />
+    </form>
+
+    <a href="/image"> <img src="/thumbnail" /> </a>
+    <p>Hello World</p>
 </body>
 </html>
